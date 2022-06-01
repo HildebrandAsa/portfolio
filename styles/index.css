@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+main {
+  width: 75%;
+  float: right;
+  height: auto;
+}
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  background-color: #a1c3eb;
+  z-index: 1;
+  color: #ffffff;
+}
+.sidebar__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.sidebar__info {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  align-self: center;
+}
+.sidebar__name {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sidebar__title {
+  font-size: 15px;
+}
+.sidebar__menu {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.sidebar__icons {
+  align-items: center;
+}
+
+.topnav {
+  display: none;
+}
+
+.menu-link {
+  background-color: #ffffff;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.menu-link:hover {
+  background-color: #b8d2e7;
+}
+
+.home {
+  background-image: url(/images/kroatien.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.home__section {
+  padding: 30px;
+  color: #ffffff;
+}
+.home__greet {
+  font-size: 20px;
+}
+.home__title {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.home__text {
+  font-size: 20px;
+}
+
+.title {
+  color: #585858;
+  font-size: 22px;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.about {
+  padding: 30px;
+  display: flex;
+  height: auto;
+}
+.about__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-skills {
+  background-color: #dce4e9;
+  padding: 30px;
+  height: auto;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+}
+.experience__section {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+.experience__education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.experience__experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.experience__item {
+  margin-bottom: 15px;
+}
+
+.education-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.experience-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 30px;
+}
+.work__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  border: 2px solid #9b9b9b;
+  border-radius: 10px;
+  max-width: 250px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card__img {
+  width: 220px;
+}
+
+.info {
+  width: 220px;
+}
+.info__title {
+  font-size: 20px;
+}
+.info__text {
+  font-size: 15px;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  width: 220px;
+  margin-top: 10px;
+}
+.tech__tag {
+  background-color: #c0cad2;
+  color: black;
+  margin: 0 5px 10px 0;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 6px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding-bottom: 20px;
+  background-color: #cbd6e3;
+  padding: 30px;
+}
+.contact__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.contact__info {
+  margin: 5px;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.input {
+  margin: 10px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  border: none;
+  border-radius: 10px;
+}
+
+.button {
+  width: 120px;
+  padding: 5px;
+  margin: 10px;
+  align-self: center;
+  font-family: "Nunito", sans-serif;
+  border: none;
+  border-radius: 10px;
+}
+
+.input:hover, .button:hover {
+  background-color: #e3eaef;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd6e3;
+}
+.footer__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.footer__icon {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.footer__icon:hover {
+  -webkit-transform: skew(-10deg);
+          transform: skew(-10deg);
+}
+
+
+@media screen and (min-width: 1300px) {
+
+  .work__wrapper {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+.topnav {
+  display: block;
+  overflow: hidden;
+  background-color: #a1c3eb;
+  position: relative;
+  padding: 20px;
+}
+
+.topnav #links {
+  display: none;
+  margin-top: 10px;
+}
+
+.topnav__link {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+}
+
+.hamburger {
+  color: #ffffff;
+  display: block;
+  position: absolute;
+  right: 100px;
+  top: 70px;
+  font-size: 50px;
+}
+
+  .sidebar__image {
+    display: block;
+    margin-left: 80px;
+  }
+
+  .sidebar {
+
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hamburger {
+    right: 40px;
+    top: 60px;
+    font-size: 40px;
+  }
+
+  .sidebar__image {
+    margin-left: 30px;
+  }
+
+  .experience-skills {
+    height: auto;
+  }
+
+  .experience__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience__experience {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+}
