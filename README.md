@@ -1,4 +1,5 @@
 This is my portfolio, see it live here:
-https://app.netlify.com/sites/hildebrandportfolio/overview
+https://react-assignment2-portfolio.netlify.app
+
 
 # portfolio
